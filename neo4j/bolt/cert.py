@@ -25,7 +25,7 @@ from os import makedirs, open as os_open, write as os_write, close as os_close, 
 from os.path import dirname, join as path_join, expanduser
 
 
-KNOWN_HOSTS = path_join(expanduser("~"), ".neo4j", "known_hosts")
+KNOWN_HOSTS = '' # path_join(expanduser("~"), ".neo4j", "known_hosts")
 
 
 class CertificateStore(object):
